@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Recommendations</title>
+  <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+  <!-- Main navbar: search bar visible only on Home -->
+  <nav class="navbar" id="mainNavbar">
+    <div class="nav-links">
+      <a href="#home" class="nav-link" data-page="home">Home</a>
+      <a href="#about" class="nav-link" data-page="about">About Us</a>
+      <a href="#contact" class="nav-link" data-page="contact">Contact Us</a>
+    </div>
+    <div class="nav-search" id="navSearch">
+      <input type="text" id="searchInput" placeholder="Search (e.g. beach, temple, country)" aria-label="Search recommendations">
+      <button type="button" id="searchBtn">Search</button>
+      <button type="button" id="resetBtn">Reset</button>
+    </div>
+  </nav>
+
+  <!-- Home page -->
+  <section id="home" class="page active">
+    <div class="hero" style="background-image: url('images/hero-bg.jpg');">
+      <div class="hero-overlay">
+        <h1>Discover Your Next Journey</h1>
+        <p class="intro">
+          Welcome to Travel Recommendations. We help you find the best destinations—whether you're looking for stunning beaches, historic temples, or unforgettable countries. Use the search bar above to explore recommendations by keyword.
+        </p>
+      </div>
+    </div>
+    <div class="results-container" id="resultsContainer">
+      <div id="resultsList"></div>
+      <div id="resultsTime" class="results-time"></div>
+    </div>
+  </section>
+
+  <!-- About Us page -->
+  <section id="about" class="page">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p class="company-info">
+        Travel Recommendations is a trusted guide for curious travelers. We curate the best destinations and practical tips so you can plan trips with confidence. Our team is passionate about exploration and helping you find places that match your interests.
+      </p>
+      <h3>Our Team</h3>
+      <div class="team-grid">
+        <div class="team-member">
+          <span class="member-name">Alex Chen</span>
+          <span class="member-role">Founder & Travel Director</span>
+        </div>
+        <div class="team-member">
+          <span class="member-name">Maria Santos</span>
+          <span class="member-role">Content & Recommendations Lead</span>
+        </div>
+        <div class="team-member">
+          <span class="member-name">James Wilson</span>
+          <span class="member-role">Destination Research</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us page -->
+  <section id="contact" class="page">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <p>Reach out with questions, feedback, or partnership ideas. We’d love to hear from you.</p>
+      <form id="contactForm" class="contact-form">
+        <label for="contactName">Name</label>
+        <input type="text" id="contactName" name="name" required placeholder="Your name">
+        <label for="contactEmail">Email</label>
+        <input type="email" id="contactEmail" name="email" required placeholder="your@email.com">
+        <label for="contactMessage">Message</label>
+        <textarea id="contactMessage" name="message" rows="5" required placeholder="Your message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "imageUrl": "images/japan.jpg",
+      "description": "Japan blends ancient traditions with cutting-edge technology. From Tokyo's neon streets to Kyoto's serene temples, discover a unique culture, exquisite cuisine, and four distinct seasons.",
+      "timezone": "Asia/Tokyo"
+    },
+    {
+      "id": 2,
+      "name": "Italy",
+      "imageUrl": "images/italy.jpg",
+      "description": "Italy offers art, history, and la dolce vita. Explore Rome's ruins, Florence's Renaissance, Venice's canals, and world-renowned cuisine from the Alps to Sicily.",
+      "timezone": "Europe/Rome"
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat",
+      "imageUrl": "images/angkor-wat.jpg",
+      "description": "Angkor Wat in Cambodia is the world's largest religious monument. This 12th-century temple complex is a masterpiece of Khmer architecture and a UNESCO World Heritage site.",
+      "timezone": "Asia/Phnom_Penh"
+    },
+    {
+      "id": 2,
+      "name": "Borobudur",
+      "imageUrl": "images/borobudur.jpg",
+      "description": "Borobudur in Indonesia is a stunning 9th-century Buddhist temple. The massive stupa features hundreds of relief panels and Buddha statues amid lush Java scenery.",
+      "timezone": "Asia/Jakarta"
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Santorini",
+      "imageUrl": "images/santorini.jpg",
+      "description": "Santorini's volcanic beaches and white villages offer iconic Greek island beauty. Red and black sand beaches, caldera views, and sunset dining make it unforgettable.",
+      "timezone": "Europe/Athens"
+    },
+    {
+      "id": 2,
+      "name": "Maldives",
+      "imageUrl": "images/maldives.jpg",
+      "description": "The Maldives is paradise with crystal-clear lagoons, overwater bungalows, and pristine coral reefs. Ideal for diving, snorkeling, and pure relaxation.",
+      "timezone": "Indian/Maldives"
+    }
+  ]
+}
